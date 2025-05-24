@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <h1> Weather update</h1>
+    <p>Check the current weather in any city around the world</p>
+  </header>
+  <div class="container">
+    <input type="text" id="cityInput" placeholder="Enter city or location" />
+    <br />
+    <button onclick="getWeather()">show weather update</button>
+    <div id="weather"></div>
+  </div>
+  <div id="weatherAnimation" class="weather-animation"></div>
+<p id="weatherDescription"></p>
+<p id="temperature"></p>
+<div id="airQuality" style="margin-top: 20px;"> 
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
